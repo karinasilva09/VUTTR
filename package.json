@@ -1,0 +1,19 @@
+{
+  "name": "vuttr",
+  "version": "1.0.0",
+  "description": "Repositório para gerenciar ferramentas com seus respectivos nomes, links, descrições e tags.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karinasilva09/VUTTR.git"
+  },
+  "author": "Karina Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karinasilva09/VUTTR/issues"
+  },
+  "homepage": "https://github.com/karinasilva09/VUTTR#readme"
+}
