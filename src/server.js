@@ -1,4 +1,5 @@
 const express = require('express')
+const mongoose = require('mongoose')
 
 class App {
   constructor() {
@@ -7,6 +8,10 @@ class App {
 
     this.middlewares()
     this.routes()
+
+    mongoose.connect('mongodb+srv://vuttr:vuttr@cluster0-bb7as.mongodb.net/vuttr?retryWrites=true', {
+      useNewUrlParser: true
+    })
   }
 
   middlewares() {

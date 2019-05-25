@@ -16,3 +16,6 @@ Estabelecer padrão de código.
 
 ### Pretier
 Automatizador das regras do ESLint.
+
+### Mongoose
+Para abstração do banco de dados.
