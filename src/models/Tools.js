@@ -7,15 +7,13 @@ const Tools = mongoose.Schema({
   },
   link: {
     type: String,
-    require: true
+    //require: true
   },
   description: {
     type: String,
-    require: true
+    //require: true
   },
   tags: [String]
-}, {
-    timestamps: true
-  })
+})
 
-module.exports = mongoose.model("Tools", Tools)
+module.exports = new mongoose.model("Tools", Tools)
